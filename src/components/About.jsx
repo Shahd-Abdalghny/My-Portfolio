@@ -29,7 +29,7 @@ const About = () => {
                             <button
                                 className=" bg-white text-primary rounded-full hover:text-secondary  font-medium px-6 py-2 transition-spring hover:scale-105"
                             >
-                                <a href="/public/Shahd Abd Elghany-Resume.pdf" download="shahdCV.pdf" target='_blank' className='text-inherit no-underline'>
+                                <a href="/Shahd Abd Elghany-Resume.pdf" download="shahdCV.pdf" target='_blank' className='text-inherit no-underline'>
                                 Download CV
                                 </a>
                             </button>
