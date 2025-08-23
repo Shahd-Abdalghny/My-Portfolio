@@ -36,7 +36,7 @@ const NavBar = () => {
                                 <a
                                     key={item.name}
                                     href={item.href}
-                                    className="text-nav-foreground hover:text-primary py-2 text-sm font-medium transition-smooth relative group"
+                                    className="text-nav-foreground hover:text-primary active:text-primary py-2 text-sm font-medium transition-smooth relative group"
                                 >
                                     {item.name}
 
@@ -49,7 +49,7 @@ const NavBar = () => {
                     <div className="hidden md:block">
                         <button
                             variant="default"
-                            className="bg-white text-secondary rounded-full hover:text-primary  font-medium px-6 py-2 transition-spring hover:scale-105"
+                            className="bg-white text-secondary rounded-full hover:text-primary active:text-primary font-medium px-6 py-2 transition-spring hover:scale-105 active:scale-105"
                         >
                             <a href="https://www.linkedin.com/in/shahd-elghny-gad/" target='_blank' className='text-inherit no-underline'>
 
@@ -62,7 +62,7 @@ const NavBar = () => {
                     <div className="md:hidden">
                         <button
                             onClick={toggleMenu}
-                            className="text-nav-foreground hover:text-nav-link-hover transition-smooth p-2"
+                            className="text-nav-foreground hover:text-nav-link-hover active:text-nav-link-hover transition-smooth p-2"
                             aria-label="Toggle menu"
                         >
                             {isMenuOpen ? (
@@ -84,7 +84,7 @@ const NavBar = () => {
                             <a
                                 key={item.name}
                                 href={item.href}
-                                className="text-nav-foreground hover:text-nav-link-hover hover:bg-secondary/50 block px-3 py-2 text-base font-medium transition-smooth rounded-md"
+                                className="text-nav-foreground hover:text-nav-link-hover active:text-nav-link-hover active:bg-secondary/50 hover:bg-secondary/50 block px-3 py-2 text-base font-medium transition-smooth rounded-md"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 {item.name}
@@ -93,7 +93,7 @@ const NavBar = () => {
                         <div className="pt-4 pb-2">
                             <button
 
-                                className="w-full bg-white text-secondary rounded-full hover:text-primary  font-medium px-6 py-2 transition-spring hover:scale-105"
+                                className="w-full bg-white text-secondary rounded-full hover:text-primary active:text-primary font-medium px-6 py-2 transition-spring hover:scale-105 active:scale-105"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 <a href="https://www.linkedin.com/in/shahd-elghny-gad/" target='_blank' className='text-inherit no-underline'>

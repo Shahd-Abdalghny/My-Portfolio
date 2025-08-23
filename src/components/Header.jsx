@@ -34,7 +34,7 @@ const Header = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row sm:justify-center md:justify-normal gap-5 sm:gap-6 mt-4">
                             <button
-                                className=" bg-secondary text-white rounded-full hover:text-primary  font-medium px-6 py-2 transition-spring hover:scale-105"
+                                className=" bg-secondary text-white rounded-full hover:text-primary active:text-primary font-medium px-6 py-2 transition-spring hover:scale-105 active:scale-105"
                             >
                                 <a href="#Projects" className='text-inherit no-underline' >
 
@@ -42,7 +42,7 @@ const Header = () => {
                                 </a>
                             </button>
                             <button
-                                className="border border-secondary text-secondary rounded-full hover:text-primary  font-medium px-6 py-2 transition-spring hover:scale-105"
+                                className="border border-secondary text-secondary rounded-full hover:text-primary active:text-primary  font-medium px-6 py-2 transition-spring hover:scale-105 active:scale-105"
                             >
                                 <a href="#Contact" className='text-inherit no-underline' >
 

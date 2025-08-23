@@ -42,7 +42,7 @@ const Projects = () => {
             projects.map((project, i) => {
               return (
 
-                <div className="max-w-sm bg-white rounded-lg shadow-sm  duration-300 ease-in hover:-translate-y-2" key={i}>
+                <div className="max-w-sm bg-white rounded-lg shadow-sm  duration-300 ease-in hover:-translate-y-2 active:-translate-y-2" key={i}>
                   <img className="rounded-t-lg" src={project.image} alt={project.title} />
                   <div className="p-5">
                     <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-800 ">{project.title}</h5>

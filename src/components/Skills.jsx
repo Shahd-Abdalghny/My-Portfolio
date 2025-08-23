@@ -160,8 +160,8 @@ const Skills = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-2 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 rounded-full shadow p-2" />
-        <CarouselNext className="right-2 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 rounded-full shadow p-2" />
+        <CarouselPrevious className="left-2 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 active:bg-gray-300 rounded-full shadow p-2" />
+        <CarouselNext className="right-2 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 active:bg-gray-300 rounded-full shadow p-2" />
       </Carousel>
     </div>
   )

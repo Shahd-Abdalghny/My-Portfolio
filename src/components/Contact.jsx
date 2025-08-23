@@ -142,7 +142,7 @@ const Contact = () => {
             <div className="pt-4">
               <button
                 type="submit"
-                className="bg-primary hover:scale-105 text-white px-6 sm:px-8 py-3 rounded-full font-medium flex items-center justify-center gap-2 transition-all duration-300 w-full sm:w-auto"
+                className="bg-primary hover:scale-105 active:scale-105 text-white px-6 sm:px-8 py-3 rounded-full font-medium flex items-center justify-center gap-2 transition-all duration-300 w-full sm:w-auto"
               >
                 Submit
               </button>
