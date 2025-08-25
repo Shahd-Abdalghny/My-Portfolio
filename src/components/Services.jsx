@@ -13,13 +13,13 @@ const Services = () => {
                 </div>
                 <div className="max-w-sm px-6 py-10  border border-secondary rounded-lg shadow-sm hover:-translate-y-2 active:-translate-y-2 hover:bg-primary active:bg-primary  duration-300 ease-in group">
                     <i class="fa-solid fa-code text-primary group-hover:text-white group-active:text-white text-xl"></i>
-                    <h5 className="mb-2 mt-2 text-2xl font-semibold tracking-tight text-gray-900 group-hover:text-white group-active:text-white ">UI / UX</h5>
-                    <p className="mb-3 font-normal text-gray-500 group-hover:text-gray-300 group-active:text-gray-300 ">Designing clean, interactive interfaces using Figma.</p>
+                    <h5 className="mb-2 mt-2 text-2xl font-semibold tracking-tight text-gray-900 group-hover:text-white group-active:text-white ">UI Implementation</h5>
+                    <p className="mb-3 font-normal text-gray-500 group-hover:text-gray-300 group-active:text-gray-300 ">Turning Figma/Sketch designs into pixel-perfect, interactive web pages.</p>
                 </div>
                 <div className="max-w-sm px-6 py-10  border border-secondary rounded-lg shadow-sm hover:-translate-y-2 active:-translate-y-2 hover:bg-primary active:bg-primary  duration-300 ease-in group">
                     <i class="fa-solid fa-code text-primary group-hover:text-white group-active:text-white text-xl"></i>
-                    <h5 className="mb-2 mt-2 text-2xl font-semibold tracking-tight text-gray-900 group-hover:text-white group-active:text-white ">Web Development</h5>
-                    <p className="mb-3 font-normal text-gray-500 group-hover:text-gray-300 group-active:text-gray-300 ">Frontend & Backend development using React , .Net and modern wen tecnologies.</p>
+                    <h5 className="mb-2 mt-2 text-2xl font-semibold tracking-tight text-gray-900 group-hover:text-white group-active:text-white ">Bug Fixing & Maintenance</h5>
+                    <p className="mb-3 font-normal text-gray-500 group-hover:text-gray-300 group-active:text-gray-300 ">Debugging and enhancing existing projects to improve user experience.</p>
                 </div>
                 
             </div>
