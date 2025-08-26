@@ -10,6 +10,7 @@ import shahd2 from './shahd2-removebg-preview - Copy.png'
 import prayer from './prayer.jpg'
 import restaurant from './restaurant.jpg'
 import mackup from './mackup.jpg'
+import portfolio from './portfolio.png'
 export const assets = {
     cross_icon,
     menu_icon,
@@ -21,7 +22,8 @@ export const assets = {
     shahd2,
     restaurant,
     prayer,
-    mackup
+    mackup,
+    portfolio
 }
 
 

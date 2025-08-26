@@ -10,14 +10,11 @@ const Header = () => {
                 <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center max-w-7xl'>
                     <div className='space-y-6 sm:space-y-8 lg:pr-8 '>
                         <div className='flex justify-center md:justify-normal lg:items-start '>
-
                             <h2 className='text-sm sm:text-base lg:text-lg font-medium text-gray-600 bg-background px-3 sm:px-4 py-2 border-2 border-gray-800 '>Hello there!</h2>
                         </div>
                         <div className='space-y-2 sm:space-y-4 text-center md:text-start'>
-
                             <h1 className='text-2xl  md:text-3xl xl:text-4xl font-medium  leading-tight'>
                                 I am <span className='text-primary italic underline underline-offset-8 inline-block md:inline'>Shahd Abd Elghany,</span>
-
                                 <div className='text-1xl  lg:text-2xl xl:text-3xl font-medium   leading-tight mt-2'>
                                     <TextType
                                         text={["Software Engineer", "Front End Devoloper", "Full Stack Trainee"]}
@@ -30,7 +27,6 @@ const Header = () => {
                             </h1>
                         </div>
                         <p className='text-base sm:text-lg lg:text-xl text-gray-500 max-w-lg  text-center md:text-start'>I have strong experience in Front-End development, particularly with React.
-
                         </p>
                         <div className="flex flex-col sm:flex-row sm:justify-center md:justify-normal gap-5 sm:gap-6 mt-4">
                             <button

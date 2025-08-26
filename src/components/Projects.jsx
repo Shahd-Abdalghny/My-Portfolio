@@ -5,6 +5,14 @@ import { assets } from '../assets/assets'
 
 const projects = [
   {
+    image: assets.portfolio,
+    title: "Personal Portflio",
+    description: "A Personal portfolio designed to present my projects ,  experience , and technical skills.",
+    skills: ["Html", "Js", "React", "Tailwind", "ShadcnUI"], 
+    github: "https://github.com/Shahd-Abdalghny/My-Portfolio",
+    demo: "https://my-portfolio-152z.vercel.app/"
+  },
+  {
     image: assets.restaurant,
     title: "Restaurant Website",
     description: "A responsive restaurant website , showcasing menu sections and modern design.",
@@ -20,14 +28,14 @@ const projects = [
     github: "https://github.com/Shahd-Abdalghny/Prayer-Tracker",
     demo: "https://prayer-tracker-phi.vercel.app/"
   },
-  {
-    image: assets.mackup,
-    title: "Makeup Artist LandingPage",
-    description: "A clean, responsive landing page built to highlight a makeup artist’s portfolio and make booking easy.",
-    skills: ["Html", "CSS", "Js", "Booptstrap"],
-    github: "https://github.com/Shahd-Abdalghny/make-up-artist",
-    demo: "https://shahd-abdalghny.github.io/make-up-artist/"
-  },
+  // {
+  //   image: assets.mackup,
+  //   title: "Makeup Artist LandingPage",
+  //   description: "A clean, responsive landing page built to highlight a makeup artist’s portfolio and make booking easy.",
+  //   skills: ["Html", "CSS", "Js", "Booptstrap"],
+  //   github: "https://github.com/Shahd-Abdalghny/make-up-artist",
+  //   demo: "https://shahd-abdalghny.github.io/make-up-artist/"
+  // },
 
 
 ]
