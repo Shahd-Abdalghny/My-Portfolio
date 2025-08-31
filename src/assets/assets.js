@@ -11,6 +11,7 @@ import prayer from './prayer.jpg'
 import restaurant from './restaurant.jpg'
 import mackup from './mackup.jpg'
 import portfolio from './portfolio.png'
+import ecommerce from './ecommerce.jpg'
 export const assets = {
     cross_icon,
     menu_icon,
@@ -23,7 +24,8 @@ export const assets = {
     restaurant,
     prayer,
     mackup,
-    portfolio
+    portfolio,
+    ecommerce
 }
 
 

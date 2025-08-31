@@ -13,6 +13,15 @@ const projects = [
     demo: "https://my-portfolio-152z.vercel.app/"
   },
   {
+    image: assets.ecommerce,
+    title: "ECommerce Website",
+    description: "An Ecommerce website designed to showcase products, and simplify the shopping process.",
+    skills: ["Html", "React", "BootStrap", "MUI"],
+    github: "https://github.com/Shahd-Abdalghny/E-commerce-website",
+    demo: "https://e-commerce-website-beta-lovat.vercel.app/"
+  },
+
+  {
     image: assets.restaurant,
     title: "Restaurant Website",
     description: "A responsive restaurant website , showcasing menu sections and modern design.",
