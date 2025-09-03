@@ -17,7 +17,7 @@ const Header = () => {
                                 I am <span className='text-primary italic underline underline-offset-8 inline-block md:inline'>Shahd Abd Elghany,</span>
                                 <div className='text-1xl  lg:text-2xl xl:text-3xl font-medium   leading-tight mt-2'>
                                     <TextType
-                                        text={["Software Engineer", "Front End Devoloper", "Full Stack Trainee"]}
+                                        text={["Software Engineer", "Front End Developer", "Full Stack Trainee"]}
                                         typingSpeed={75}
                                         pauseDuration={1500}
                                         showCursor={true}

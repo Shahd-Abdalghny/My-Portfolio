@@ -8,7 +8,7 @@ const projects = [
     image: assets.portfolio,
     title: "Personal Portflio",
     description: "A Personal portfolio designed to present my projects ,  experience , and technical skills.",
-    skills: ["Html", "Js", "React", "Tailwind", "ShadcnUI"], 
+    skills: ["React", "Tailwind", "ShadcnUI"], 
     github: "https://github.com/Shahd-Abdalghny/My-Portfolio",
     demo: "https://my-portfolio-152z.vercel.app/"
   },
