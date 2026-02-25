@@ -5,49 +5,60 @@ import { assets } from '../assets/assets'
 
 const projects = [
   {
+    image: assets.mos3ef,
+    title: "Mos3ef Website",
+    description:
+      "A platform that quickly connects users to the nearest medical facilities during emergencies.",
+    skills: [".Net Core", "Api", "React", "Tailwind"],
+    github: "https://github.com/Shahd-Abdalghny/Mos3efProduction",
+    demo: "https://mos3ef-website.vercel.app/",
+  },
+  {
     image: assets.portfolio,
     title: "Personal Portflio",
-    description: "A Personal portfolio designed to present my projects ,  experience , and technical skills.",
-    skills: ["React", "Tailwind", "ShadcnUI"], 
+    description:
+      "A Personal portfolio designed to present my projects ,  experience , and technical skills.",
+    skills: ["React", "Tailwind", "ShadcnUI"],
     github: "https://github.com/Shahd-Abdalghny/My-Portfolio",
-    demo: "https://my-portfolio-152z.vercel.app/"
+    demo: "https://my-portfolio-152z.vercel.app/",
   },
   {
     image: assets.ecommerce,
     title: "ECommerce Website",
-    description: "An Ecommerce website designed to showcase products, and simplify the shopping process.",
+    description:
+      "An Ecommerce website designed to showcase products, and simplify the shopping process.",
     skills: ["Html", "React", "BootStrap", "MUI"],
     github: "https://github.com/Shahd-Abdalghny/E-commerce-website",
-    demo: "https://e-commerce-website-beta-lovat.vercel.app/"
+    demo: "https://e-commerce-website-beta-lovat.vercel.app/",
   },
 
   {
     image: assets.restaurant,
     title: "Restaurant Website",
-    description: "A responsive restaurant website , showcasing menu sections and modern design.",
+    description:
+      "A responsive restaurant website , showcasing menu sections and modern design.",
     skills: ["Html", "CSS", "Js", "Booptstrap"],
     github: "https://github.com/Shahd-Abdalghny/Restaurant",
-    demo: "https://restaurant-7k1l.vercel.app/"
+    demo: "https://restaurant-7k1l.vercel.app/",
   },
   {
     image: assets.prayer,
     title: "Prayer Tracker Website",
-    description: "A prayer tracker website that helps users mark their daily prayers, view progress, and stay consistent.",
+    description:
+      "A prayer tracker website that helps users mark their daily prayers, view progress, and stay consistent.",
     skills: ["Html", "CSS", "react.js", "Booptstrap"],
     github: "https://github.com/Shahd-Abdalghny/Prayer-Tracker",
-    demo: "https://prayer-tracker-phi.vercel.app/"
+    demo: "https://prayer-tracker-phi.vercel.app/",
   },
-  // {
-  //   image: assets.mackup,
-  //   title: "Makeup Artist LandingPage",
-  //   description: "A clean, responsive landing page built to highlight a makeup artist’s portfolio and make booking easy.",
-  //   skills: ["Html", "CSS", "Js", "Booptstrap"],
-  //   github: "https://github.com/Shahd-Abdalghny/make-up-artist",
-  //   demo: "https://shahd-abdalghny.github.io/make-up-artist/"
-  // },
-
-
-]
+  {
+    image: assets.mackup,
+    title: "Makeup Artist LandingPage",
+    description: "A clean, responsive landing page built to highlight a makeup artist’s portfolio and make booking easy.",
+    skills: ["Html", "CSS", "Js", "Booptstrap"],
+    github: "https://github.com/Shahd-Abdalghny/make-up-artist",
+    demo: "https://shahd-abdalghny.github.io/make-up-artist/"
+  },
+];
 const Projects = () => {
   return (
     <div className='bg-gray-50 py-24 mt-[80px] md:mt-[150px] mb-20' id='Projects'>
@@ -60,7 +71,7 @@ const Projects = () => {
               return (
 
                 <div className="max-w-sm bg-white rounded-lg shadow-sm  duration-300 ease-in hover:-translate-y-2 active:-translate-y-2" key={i}>
-                  <img className="rounded-t-lg" src={project.image} alt={project.title} />
+                  <img className="rounded-t-lg h-[232px] w-full object-cover" src={project.image} alt={project.title} />
                   <div className="p-5">
                     <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-800 ">{project.title}</h5>
                     <p className="mb-3 font-normal text-gray-700 "> {project.description}</p>

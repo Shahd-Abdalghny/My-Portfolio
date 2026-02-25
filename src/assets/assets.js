@@ -12,7 +12,9 @@ import restaurant from './restaurant.jpg'
 import mackup from './mackup.jpg'
 import portfolio from './portfolio.png'
 import ecommerce from './ecommerce.jpg'
+import mos3ef from './mos3ef.jpg'
 export const assets = {
+    mos3ef,
     cross_icon,
     menu_icon,
     star_icon,
